@@ -1,9 +1,11 @@
 import React from 'react';
+import { NavigationBar, BreadCrumbs } from './components';
 
 const App = () => (
-  <div>
-    App
-  </div>
+  <>
+    <NavigationBar />
+    <BreadCrumbs />
+  </>
 );
 
 export default App;
